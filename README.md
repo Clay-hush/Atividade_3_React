@@ -1,12 +1,6 @@
 # Viva Feira 🌱
 
-Mini projeto de carrinho de compras desenvolvido para o **Entregável 3 — Interatividade e `useState` (Semana 10)**.
-
-## Repositório
-
-Depois de publicar este projeto no GitHub, cole o link aqui:
-
-> **Link do GitHub:** _adicione o endereço do seu repositório_
+Mini projeto de carrinho de compras desenvolvido para o **Entregável 3 — Interatividade e `useState` **.
 
 ## O projeto
 
