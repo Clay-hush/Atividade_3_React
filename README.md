@@ -25,21 +25,6 @@ Não devemos alterar o estado diretamente, por exemplo com `carrinho.push(item)`
 
 O spread operator (`[...carrinho, item]`) cria um novo array com os itens anteriores e o novo item. Ao passar essa nova referência para a função atualizadora do `useState`, deixamos a mudança explícita e previsível. Isso mantém a imutabilidade, facilita a renderização correta e reduz efeitos inesperados em outras partes que usam o mesmo dado.
 
-## Como executar
-
-Você precisa ter Node.js instalado. Na pasta do projeto, execute:
-
-```bash
-npm install
-npm run dev
-```
-
-O terminal mostrará o endereço local para abrir no navegador. Para gerar a versão de produção:
-
-```bash
-npm run build
-```
-
 ## Tecnologias
 
 - React e `useState`
@@ -47,18 +32,6 @@ npm run build
 - Tailwind CSS
 - Lucide React
 
-## Publicar no GitHub
 
-1. Crie um repositório vazio no GitHub.
-2. Abra um terminal dentro da pasta `viva-feira` e execute:
-
-```bash
-git init
-git add .
-git commit -m "feat: cria app interativa Viva Feira"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/viva-feira.git
-git push -u origin main
-```
 
 3. Substitua `SEU-USUARIO` pelo seu usuário do GitHub e atualize o link no início deste README.
