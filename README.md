@@ -24,14 +24,3 @@ Uma feira online responsiva para escolher produtos frescos. O app demonstra esta
 Não devemos alterar o estado diretamente, por exemplo com `carrinho.push(item)`, porque o React depende da referência do estado para perceber que houve uma mudança e renderizar a interface novamente. O `push` modifica o mesmo array; assim, a atualização pode não ser reconhecida corretamente e ainda torna mais difícil prever de onde veio cada mudança.
 
 O spread operator (`[...carrinho, item]`) cria um novo array com os itens anteriores e o novo item. Ao passar essa nova referência para a função atualizadora do `useState`, deixamos a mudança explícita e previsível. Isso mantém a imutabilidade, facilita a renderização correta e reduz efeitos inesperados em outras partes que usam o mesmo dado.
-
-## Tecnologias
-
-- React e `useState`
-- Vite
-- Tailwind CSS
-- Lucide React
-
-
-
-3. Substitua `SEU-USUARIO` pelo seu usuário do GitHub e atualize o link no início deste README.
